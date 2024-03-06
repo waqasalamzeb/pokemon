@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+  color: white;
+  list-style: none;
+}
+.top-bar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    
+   
+    
+}
+.top-elements ,.topbar-2,.inputs{
+    max-width: 850px;
+    margin: auto;
+  
+}
+.one{
+    width: 30px;
+    height: 40px;
+    background-color: red;
+}
+.top2-elements{
+    display: flex;
+}
+.home,.pokedex,.console,.cards,.play-btn,.trophy,.news{
+    width: 130px;
+    height: 100px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.home{
+    background-color: #919191;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+   
+}
+.pokedex:hover{
+  background-color: #E3350D;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+   
+}
+.console:hover{
+  border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#EE6B2F;
+     
+  }
+  .cards:hover{
+    background-color:rgb(230,188,47);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     
+  }
+  .trophy:hover{
+    background-color:#4DAD5B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+     
+  }
+  .play-btn:hover{
+    background-color:#4DAD5B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+  }
+ 
+  .news:hover{
+   background-color: #1B53BA;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+     
+  }
+  .img1{
+    border: 1px solid black;
+    height: 100px;
+
+  }
+  .img2{
+    border: 1px solid black;
+    height: 50px;
+  }
+  .img2 img{
+    width: 100%;
+    height: auto;
+  }
+  .first{
+   max-width: 800px;
+   margin: auto;
+   
+  }
+ .gallery{
+  max-width: 850px;
+  margin-top: 10px;
+  margin: auto;
+ 
+ }
+ 
+ 
+.pic1{
+  width: 70%;
+  height: auto;
+}
+.pic1 img{
+  width: 100%;
+  height: auto;
+}
+.pic2{
+  width: 35%;
+  display: flex;
+ 
+}
+.imgp{
+  margin-right: 2%;
+  border-radius: 5px;
+}
+.imgp2{
+  border-radius: 5px; 
+
+}
+.pic2 img{
+  width: 100%;
+  height: auto;
+}
+.pic1r{
+  position: relative;
+}
+.gallery ,.gallery2{
+ 
+  width: 900px;
+  margin: auto;
+}
+.gal1 .title{
+  background-color: #8B8B8B;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal2 h4{
+  background-color: #4DAD5B;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-transform:capitalize;
+}
+.gal2,.gal3,.g22{
+  margin-top: 10px;
+}
+.gal3 h4{
+  background-color: #194AD0;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal6 h4{
+  background-color: #E6BC2F;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal7 h4{
+  background-color: #E45925;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.right{
+  flex-direction: column;
+}
+.gal2title{
+  background-color: #8B8B8B;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal2title2{
+  background-color: #1B53BA;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal2title3{
+  background-color: #4DAD5B;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal2title4{
+  background-color: #EE6B2F;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.gal2title5{
+  background-color: #313131;
+  color: white;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+
+}
+.gal2title6{
+  background-color: #E6BC2F;
+  padding: 21px 9px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.footer{
+  background-color: #1F1F1F;
+  margin: auto;
+  height: 571px;
+}
+.footrow{
+  height: 300px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  max-width:1000px;
+  margin: auto;
+}
+.lastrow{
+  max-width:1000px;
+  margin: auto;
+  color: white;
+
+}
+.input h4{
+  color: white;
+}
+.email{
+  border-radius: 3px;
+  width: 400px;
+  padding: 4px 20px;
+}
+.coun{
+  padding: 4px 20px;
+
+}
+
+.signup{
+  padding: 13px 50px;
+  background-color: #808080;
+  color: white;
+  border-radius: 7px;
+  margin-top: 2px;
+}
+.titlefeedback{
+  color: white;
+  list-style: none;
+}
+.icons i{
+  margin-right: 10px;
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+  .topelements{
+    width: 100%;
+  }
+  /* .top2-elements{
+    display: none;
+  } */
+  .gallery{
+    width: 100%;
+  }
+  .gallery2{
+    width: 100%;
+  }
+  .g23{
+    width: 100%;
+  }
+  .footer{
+    height: 810px;
+  }
+  
+ } 
+
+
+@media only screen and (min-width:577px) and (max-width:768px){
+  .top{
+    width: 100%;
+  }
+  .top2-elements{
+    display: none;
+  }
+  .gallery{
+    width: 100%;
+  }
+  .gallery2{
+    width: 100%;
+  }
+  .footer{
+    height: 810px;
+  }
+  
+ } 
+
+
+ @media only screen and (min-width:10px) and (max-width:576px){
+  .top2-elements{
+    display: none;
+  }
+  .four,.five,.six{
+    display: none;
+  }
+  .gallery{
+    width: 100%;
+  }
+  .gallery2{
+    width: 100%;
+  }
+  .g23{
+    width: 100%;
+  }
+  .g23 img{
+    width: 100%;
+    height: auto;
+  }
+  .footer{
+    height: 976px;
+  }
+  .footrow{
+    height: 181px;
+    padding-top: 20px;
+  }
+  .email{
+    width: 321px;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+  }
+  .coun{
+    width: 321px;
+    padding: 12px 20px;
+    margin-bottom: 5px;
+
+  }
+  .signup{
+    margin-bottom: 30px;
+    padding: 13px 123px;
+  }
+  .company{
+    margin-top: 273px;
+  }
+  .icons{
+   display: flex;
+   align-self: flex-start;
+  }
+ } 
