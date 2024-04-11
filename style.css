@@ -227,12 +227,11 @@ li{
 .footer{
   background-color: #1F1F1F;
   margin: auto;
-  height: 571px;
+  height: auto;
 }
 .footrow{
   height: 300px;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   max-width:1000px;
   margin: auto;
@@ -286,9 +285,7 @@ li{
   .g23{
     width: 100%;
   }
-  .footer{
-    height: 810px;
-  }
+
   
  } 
 
@@ -296,6 +293,9 @@ li{
 @media only screen and (min-width:577px) and (max-width:768px){
   .top{
     width: 100%;
+  }
+  .top-elements{
+     max-width: 850px;
   }
   .top2-elements{
     display: none;
@@ -306,9 +306,7 @@ li{
   .gallery2{
     width: 100%;
   }
-  .footer{
-    height: 810px;
-  }
+  
   
  } 
 
@@ -333,30 +331,29 @@ li{
     width: 100%;
     height: auto;
   }
-  .footer{
-    height: 976px;
-  }
+  
   .footrow{
     height: 181px;
     padding-top: 20px;
   }
   .email{
-    width: 321px;
+    width: 100%;
     padding: 12px 20px;
     margin-bottom: 5px;
   }
   .coun{
-    width: 321px;
+    width: 100%;
     padding: 12px 20px;
     margin-bottom: 5px;
 
   }
   .signup{
     margin-bottom: 30px;
-    padding: 13px 123px;
+    padding: 15px 86px;
+    width: 100%;
   }
   .company{
-    margin-top: 273px;
+    margin-top: 369px;
   }
   .icons{
    display: flex;
