@@ -285,7 +285,11 @@ li{
   .g23{
     width: 100%;
   }
-
+  .g222 img{
+    width: 100%;
+    height: auto;
+  }
+  
   
  } 
 
@@ -305,6 +309,10 @@ li{
   }
   .gallery2{
     width: 100%;
+  }
+  .g222 img{
+    width: 100%;
+    height: auto;
   }
   
   
